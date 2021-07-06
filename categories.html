@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Check it</title>
+
+    <!-- external link for font used -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="categories.css" />
+    <title>Checkit-categories</title>
   </head>
   <body>
-    <header class="header container">
+    <!-- header here -->
+    <header class="header containerr">
       <div class="logo">
         <img src="/images/logo.jpg" alt="logo" class="logo" />
       </div>
@@ -44,7 +46,7 @@
             </li>
 
             <li class="lists">
-              <a href="categories.html" class="nav-links">Categories</a>
+              <a href="buyshare.html" class="nav-links">Categories</a>
             </li>
             <li class="lists">
               <a href="store.html" class="nav-links">Store</a>
@@ -57,51 +59,40 @@
         <a class="sign" href="create.html">Sign up</a>
       </div>
     </header>
-    <main class="main">
-      <section class="section-a container">
-        <h2>Check out some of our products</h2>
-        <div class="prod"></div>
-      </section>
 
-      <section class="section-b">
-        <div class="wrapper">
-          <div class="left">
-            <h3>Upgrade your tech life</h3>
-            <p>choose from top-selling stores</p>
-            <a href="store.html"
-              ><p>
-                Shop now
-                <span><i class="fas fa-long-arrow-alt-right"></i></span></p
-            ></a>
-          </div>
-
-          <div class="middle">
-            <img src="/images/hp.png" alt="product" />
-            <p>
-              HP Envy 17 corei7 <br />
-              Laptop Nvidia
-            </p>
-            <p>Price: #200,000</p>
-          </div>
-
-          <div class="right">
-            <img src="images/dell.jpg" alt="product" />
-            <p>
-              HP Envy 17 corei7 <br />
-              Laptop Nvidia
-            </p>
-            <p>Price: #180,000</p>
-          </div>
+    <main class="container">
+      <div class="holder">
+        <div class="men cat">
+          <a href="store.html">
+            <img src="/images/image 14.png" alt="men's wear" srcset="" />
+          </a>
+          <p>Men's Clothing</p>
         </div>
-      </section>
-    </main>
-    <!--<footer class="footer">
-      <div class="details">
-        <p><a href="" class="linkk">Contact</a></p>
-        <p><a href="" class="linkk">About</a></p>
-        <p><a href="" class="linkk">FAQ</a></p>
+
+        <div class="elect cat">
+          <a href="store.html">
+            <img src="/images/image 9.png" alt="laptop on display" srcset="" />
+          </a>
+          <p>Electronics</p>
+        </div>
       </div>
-    </footer>-->
+
+      <div class="holder">
+        <div class="women cat">
+          <a href="store.html">
+            <img src="/images/image 11.png" alt="women model" srcset="" />
+          </a>
+          <p>Women's Clothing</p>
+        </div>
+
+        <div class="jwel cat">
+          <a href="store.html">
+            <img src="/images/image 17.png" alt="wristwatches" srcset="" />
+          </a>
+          <p>Jewelries</p>
+        </div>
+      </div>
+    </main>
 
     <footer>
       <div class="first">
@@ -148,6 +139,6 @@
       </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="categories.js"></script>
   </body>
 </html>

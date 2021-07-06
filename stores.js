@@ -35,10 +35,12 @@ function toggle() {
   }
 }
 
-const products = document.querySelector(".prod");
+const main = document.querySelector(".main");
+
+const apiUrl = "https://fakestoreapi.com/products";
 
 async function fetchProducts() {
-  const resp = await fetch("https://fakestoreapi.com/products?limit=5");
+  const resp = await fetch("https://fakestoreapi.com/products");
   const responseData = await resp.json();
   console.log(responseData);
 
@@ -51,8 +53,8 @@ function createUi(data) {
   data.forEach((item) => {
     const div = document.createElement("div");
     div.classList.add("wrapper");
-    div.innerHTML = `
-    <div class='wrap'>
+    div.innerHTML = ` <div class='wrap'>
+              <h3>${item.category}</h3>
               <div class="main-img">
                 <img src="${item.image}" alt="" />
               </div>
@@ -63,13 +65,16 @@ function createUi(data) {
                 <div class='btn-con'>
                   <a href='buyshare.html' class=''>Buy/Share</a>
                 </div>
-
+                <div class='desc'>
+                  <h4>Description</h4>
+                  <p>${item.description}</p>
+                </div>
                 
               </div>
     
     
     </div>`;
 
-    products.append(div);
+    main.append(div);
   });
 }

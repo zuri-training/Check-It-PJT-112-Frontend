@@ -1,3 +1,22 @@
+/*const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+  hamburger.classList.toggle("active");
+  navLinks.classList.toggle("active");
+}
+
+const navItem = document.querySelectorAll(".nav-item");
+
+navItem.forEach((n) => n.addEventListener("click".closeMenu));
+
+function closeMenu() {
+  hamburger.classList.remove("active");
+  navLinks.classList.remove("active");
+}*/
+
 // DOM items SELECTIONS
 
 const menuToggle = document.querySelector(".menu-toggle-btn");
@@ -33,43 +52,4 @@ function toggle() {
     });
     showMenu = false;
   }
-}
-
-const products = document.querySelector(".prod");
-
-async function fetchProducts() {
-  const resp = await fetch("https://fakestoreapi.com/products?limit=5");
-  const responseData = await resp.json();
-  console.log(responseData);
-
-  createUi(responseData);
-}
-
-fetchProducts();
-
-function createUi(data) {
-  data.forEach((item) => {
-    const div = document.createElement("div");
-    div.classList.add("wrapper");
-    div.innerHTML = `
-    <div class='wrap'>
-              <div class="main-img">
-                <img src="${item.image}" alt="" />
-              </div>
-              <div class="product-details">
-                <p>${item.title}</p>
-                
-                <h4>Price: ${item.price}</h4>
-                <div class='btn-con'>
-                  <a href='buyshare.html' class=''>Buy/Share</a>
-                </div>
-
-                
-              </div>
-    
-    
-    </div>`;
-
-    products.append(div);
-  });
 }
