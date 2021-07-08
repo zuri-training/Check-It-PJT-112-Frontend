@@ -41,6 +41,10 @@ if the user clicks on any product on the homepage, the user would be taken to th
 
 -- checkitproject.netlify.app
 
+## Figma design link
+
+-- https://www.figma.com/file/awHEKpV506Po5JaVkxuYSG/check-it-landing-page?node-id=380%3A3
+
 ## Download Prototype for mobile
 
 [downloadlink](downloadlink)
