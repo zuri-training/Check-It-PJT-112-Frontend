@@ -171,13 +171,50 @@ p:nth-child(2) {
 }
 
 footer {
-  background-color: #931415;
-  margin-top: 2em;
-  width: 100%;
-  padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat (11, 1fr );
+    grid-template-rows: 1fr;
+    gap: 3em;
+    color: black;
+    background: #FEC46C;
+    padding: 20px 50px;
 }
 
-footer .base-links {
+footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.first{
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.first img{
+    width: 40%;
+}
+
+.second{
+    grid-area: 1 / 4 / 2 / 6;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    grid-area: 1 / 7 / 2 / 9;
+    display: flex;
+    flex-direction: column;
+}
+
+.sl{
+    grid-area: 1 / 10 / 2 / 12;
+}
+
+/* footer .base-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,7 +229,7 @@ footer .base-links a {
 
 footer .base-links a:hover {
   border-bottom: 1px solid white;
-}
+} */
 
 /* for screen orientation 768px and below */
 

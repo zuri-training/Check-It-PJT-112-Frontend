@@ -132,7 +132,7 @@ input.box{
     text-decoration: none;
 }
 
-hr{
+.call hr{
     display: inline-block;
     width: 130px;
     margin: 3px 0; 
@@ -185,58 +185,86 @@ hr{
     font-size: 28px;
 }
 
-footer{
-    background-color: #931415;
-    width: 100%;
+footer {
+    display: grid;
+    grid-template-columns: repeat (11, 1fr );
+    grid-template-rows: 1fr;
+    gap: 2em;
+    color: black;
+    background: #FEC46C;
+    padding: 10px 30px;
     margin-top: 2em;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
-footer .base-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .base-links a{
-    color: white;
-    font-size: 14px;
-    padding: 0 15px;
+footer a{
+    color: black;
     text-decoration: none;
+    font-size: 12px;
+    padding: 8px 0;
 }
 
-footer .base-links a:hover{
-    text-decoration: underline;
-    border-bottom: 1px solid white;
+.first{
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
 }
 
-footer .sl-p{
-    color: white;
+footer hr{
+    visibility: hidden;
+}
+
+.first img{
+    width: 30%;
+}
+
+.second{
+    grid-area: 1 / 4 / 2 / 6;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    grid-area: 1 / 7 / 2 / 9;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .fas{
+    /* color: white; */
+    margin-right: 5px;
+}
+
+.sl{
+    grid-area: 1 / 10 / 2 / 12;
+}
+
+.sl-p{
     text-align: center;
     margin: 1em;
 }
 
-footer .social-links{
+.social-links{
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 10px;
 }
 
 footer .social-links a{
-    margin: 0 20px;
-    font-size: 1.5em;
+    margin: 0 15px;
+    font-size: 1em;
 }
 
-footer .social-links a:nth-child(1){
-    background: white;
+.social-links .fa-facebook-f{
+    color: #1E6AA4;
+}
+
+.social-links .fa-twitter{
+    color: #395185;
 }
 
 /* for medium screen size */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .nav-links{
         position: fixed;
         left: -100%;
@@ -292,8 +320,29 @@ footer .social-links a:nth-child(1){
         width: 300px;
     }
 
-    footer{
+    footer {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    footer hr{
+        visibility: initial;
+        color: black;
+    }
+
+    footer p{
+        text-align: start;
+    }
+
+    .social-links{
+        display: initial;
+        align-items: start;
+    }
+
+    .sl-p{
+        margin: unset;
     }
 }
