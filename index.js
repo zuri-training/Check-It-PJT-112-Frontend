@@ -107,9 +107,7 @@ function createUi(data) {
                   <p>${item.title}</p>
                   
                   <h4>Price: $${item.price}</h4>
-                  <div class='btn-con'>
-                    <a href='buyshare.html' class=''>Compare</a>
-                  </div>
+                  
                   
                   
                 </div>
