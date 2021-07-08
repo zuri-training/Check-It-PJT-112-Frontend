@@ -177,6 +177,10 @@ img {
   height: 150px;
 }
 
+.wrap {
+  cursor: pointer;
+}
+
 .main .section-a .wrapper .wrap p {
   font-size: 13px;
   margin: 0.5rem 0;
