@@ -258,7 +258,7 @@ footer .social-links a {
   color: #395185;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 800px) {
   .main .section-b .wrapper {
     grid-template-columns: 1fr;
   }
@@ -354,7 +354,7 @@ footer .social-links a {
     margin-left: 1rem;
   }
 
-  .header .bottons {
+  /*.header .bottons {
     display: none;
   }
 
@@ -368,7 +368,7 @@ footer .social-links a {
   }
   .header .bottons.show a {
     color: #000;
-  }
+  }*/
 
   .main .section-a h2 {
     text-align: center;

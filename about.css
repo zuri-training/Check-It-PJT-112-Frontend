@@ -239,6 +239,16 @@ header{
   margin-left: 4em;
 }
 
+.team {
+  padding: 2em;
+}
+
+.team p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+
 .faq {
   padding: 20px 20px;
 }
@@ -343,7 +353,7 @@ footer .social-links a {
   color: #395185;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 800px) {
   .main .section-b .wrapper {
     grid-template-columns: 1fr;
   }
@@ -439,7 +449,7 @@ footer .social-links a {
     margin-left: 1rem;
   }
 
-  .header .bottons {
+  /*.header .bottons {
     display: none;
   }
 
@@ -453,7 +463,7 @@ footer .social-links a {
   }
   .header .bottons.show a {
     color: #000;
-  }
+  }*/
 
   .main .section-a h2 {
     text-align: center;

@@ -320,7 +320,7 @@ footer .social-links a {
   color: #395185;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 800px) {
   .menu-toggle-btn {
     display: block;
     transition: all 0.45s;
@@ -414,7 +414,7 @@ footer .social-links a {
     z-index: 0;
   }
 
-  .header .bottons {
+  /*.header .bottons {
     display: none;
   }
 
@@ -430,7 +430,7 @@ footer .social-links a {
 
   .header .bottons.show a {
     color: #000;
-  }
+  }*/
 }
 
 @media screen and (max-width: 768px) {

@@ -315,7 +315,7 @@ footer .social-links a {
   color: #395185;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 800px) {
   .main .section-b .wrapper {
     grid-template-columns: 1fr;
   }
@@ -430,11 +430,6 @@ footer .social-links a {
   .main .section-a h2 {
     text-align: center;
     margin-bottom: 2.5rem;
-  }
-
-  .footer .details p {
-    margin: 0 0.45rem;
-    padding: 1.5rem;
   }
 }
 
