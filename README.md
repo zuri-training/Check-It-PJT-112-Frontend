@@ -45,32 +45,6 @@ if the user clicks on any product on the homepage, the user would be taken to th
 
 -- https://www.figma.com/file/awHEKpV506Po5JaVkxuYSG/check-it-landing-page?node-id=380%3A3
 
-## Download Prototype for mobile
-
-[downloadlink](downloadlink)
-
-## app Images
-
-[appImage](!appImage)
-
-## Programming Lamguage for mobile
-
-Kotlin
-
-### Packages
-
-##### API calls
-
-- Retrofit2
-- okHTTP3
-- GSON Converter
-
-##### Architecture
-
-- Model, View, View Model(MVVM)
-- Jetpack Navigation Component
-- Material Design
-
 ## Contributors
 
 - Eniola Agbola (Project Manager)
