@@ -38,7 +38,9 @@ function toggle() {
 
 const img = document.querySelector(".d");
 const det = document.querySelector(".det");
-
+const btn = document.querySelector(".btn");
+const tit = window.document.URL;
+console.log(tit);
 window.addEventListener("DOMContentLoaded", hello);
 
 function hello() {
@@ -46,6 +48,7 @@ function hello() {
   det.innerText = d.title;
 
   console.log(d.myImage);
+  //console.log(d.title);
 
   if (d) {
     const div = document.createElement("div");
@@ -64,4 +67,21 @@ function hello() {
 
     img.append(div);
   }
+
+  btn.addEventListener("click", () => {
+    if (navigator.share) {
+      navigator
+        .share({
+          title: `${d.price}`,
+          text: `${d.title}`,
+          url: `${tit}`,
+        })
+        .then(() => {
+          console.log("Thanks for sharing");
+        })
+        .catch(console.error);
+    } else {
+      alert("You do not have access to share");
+    }
+  });
 }

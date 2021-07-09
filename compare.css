@@ -153,14 +153,30 @@ img {
   height: 250px;
 }
 
+.hold {
+  border: 2px solid var(--pink);
+  margin-bottom: 1rem;
+}
+
 .app {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
   padding: 1rem;
   place-items: center;
-  border: 2px solid var(--pink);
   margin: 1rem 0;
+}
+
+.btn {
+  border: none;
+  background-color: var(--pink);
+  padding: 0.55rem 1.1rem;
+  border-radius: 7px;
+  margin: 0.75rem auto;
+  width: 50%;
+  text-align: center;
+  display: grid;
+  place-items: center;
 }
 
 footer {
@@ -384,9 +400,9 @@ footer .social-links a {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1.5rem;
-    padding: 2rem;
+    padding: 0.85rem;
     place-items: center;
-    border: 2px solid var(--pink);
+    text-align: center;
   }
   /*.header .search form {
     display: none;
