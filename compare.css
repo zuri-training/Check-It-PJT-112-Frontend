@@ -177,6 +177,7 @@ img {
   text-align: center;
   display: grid;
   place-items: center;
+  cursor: pointer;
 }
 
 footer {
