@@ -40,14 +40,14 @@ const img = document.querySelector(".d");
 const det = document.querySelector(".det");
 const btn = document.querySelector(".btn");
 const tit = window.document.URL;
-console.log(tit);
+//console.log(tit);
 window.addEventListener("DOMContentLoaded", hello);
 
 function hello() {
   const d = JSON.parse(localStorage.getItem("details"));
   det.innerText = d.title;
 
-  console.log(d.myImage);
+  //console.log(d.myImage);
   //console.log(d.title);
 
   if (d) {

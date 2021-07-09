@@ -38,7 +38,7 @@ function toggle() {
 const products = document.querySelector(".prod");
 
 const input = document.querySelector(".search-here");
-console.log(input);
+//console.log(input);
 let responseData = [];
 
 const main = document.querySelector(".main");
@@ -51,7 +51,7 @@ input.addEventListener("keyup", (e) => {
     return product.title.toLowerCase().includes(searchString.toLowerCase());
   });
 
-  console.log(filteredData);
+  //console.log(filteredData);
   createUi(filteredData);
 });
 
@@ -156,7 +156,7 @@ fetchProducts();
 
 function trans(wrap) {
   //e.target;
-  console.log(wrap);
+  //console.log(wrap);
   //const i = image.parentElement;
   //console.log(i);
 

@@ -47,7 +47,7 @@ input.addEventListener("keyup", (e) => {
     return product.category.toLowerCase().includes(searchString.toLowerCase());
   });
 
-  console.log(filteredData);
+  //console.log(filteredData);
   createUi(filteredData);
 });
 
@@ -56,7 +56,7 @@ input.addEventListener("keyup", (e) => {
 async function fetchProducts() {
   const resp = await fetch("https://fakestoreapi.com/products");
   responseData = await resp.json();
-  console.log(responseData);
+  //console.log(responseData);
 
   createUi(responseData);
 }
@@ -136,7 +136,7 @@ fetchProducts();
 
 function trans(wrap) {
   //e.target;
-  console.log(wrap);
+  //console.log(wrap);
   //const i = image.parentElement;
   //console.log(i);
 
@@ -148,7 +148,7 @@ function trans(wrap) {
       const title = item.childNodes[5].children[0].innerText;
 
       const be = { myImage, price, title };
-      console.log(be);
+      //console.log(be);
 
       localStorage.setItem("details", JSON.stringify(be));
       window.location.assign("compare.html");
