@@ -8,10 +8,13 @@ the user can then proceed to the vendors site and purchase the said product from
 When the user gets to the app, the system loads products from a particular vendor with the homepage containing a few of the products.
 if the user clicks on any product on the homepage, the user would be taken to the compare page where the price of the product can be compared with the price from other vendors. The user can navigate to the all products page where the user can see a more detailed description of the product on hover and also compare the price of the product with prices from other vendors by clicking on the particular product.
 
+On the compare page any user whose device supports the share feature would be able to share the product to any relevant application like social medias, email etc
+
 ## Product Features
 
 - A search field linked to filter the products by name or title on the homepage and by categories on the all products page
 - Compare Prices
+- Being able to share products to any application for supported devices
 - Preload product from a particular vendor
 
 ## User Journey
@@ -39,7 +42,7 @@ if the user clicks on any product on the homepage, the user would be taken to th
 
 ## live link for web version
 
--- checkitproject.netlify.app
+-- checkitprojectapp.netlify.app
 
 ## Figma design link
 
