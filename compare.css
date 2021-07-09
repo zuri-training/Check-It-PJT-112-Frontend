@@ -180,6 +180,22 @@ img {
   cursor: pointer;
 }
 
+.iim {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.76rem 0;
+}
+
+.iim span {
+  font-size: 12px;
+  margin: 0 0.75rem;
+}
+.fakers {
+  width: 50px !important;
+  height: 50px !important;
+}
+
 footer {
   display: grid;
   grid-template-columns: repeat (11, 1fr);
@@ -404,6 +420,10 @@ footer .social-links a {
     padding: 0.85rem;
     place-items: center;
     text-align: center;
+  }
+
+  .iim {
+    justify-content: center;
   }
   /*.header .search form {
     display: none;
