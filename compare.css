@@ -425,6 +425,10 @@ footer .social-links a {
   .iim {
     justify-content: center;
   }
+
+  .space {
+    margin-bottom: 1.5rem;
+  }
   /*.header .search form {
     display: none;
   }
