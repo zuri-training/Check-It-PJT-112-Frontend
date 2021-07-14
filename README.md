@@ -71,6 +71,7 @@ On the compare page any user whose device supports the share feature would be ab
 - Ejembi Joshua
 - Obatobi Ayeni
 - Isiaka Abdulahi Akinkunmi
+- Haruna Adebayo
 
 #### Back End Track
 
