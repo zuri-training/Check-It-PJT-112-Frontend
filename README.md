@@ -64,6 +64,7 @@ On the compare page any user whose device supports the share feature would be ab
 - Mary Pedro
 - Obatobi Ayeni
 - Joshua Seun
+- Haruna Adebayo
 
 #### Front End Track
 
@@ -71,7 +72,6 @@ On the compare page any user whose device supports the share feature would be ab
 - Ejembi Joshua
 - Obatobi Ayeni
 - Isiaka Abdulahi Akinkunmi
-- Haruna Adebayo
 
 #### Back End Track
 

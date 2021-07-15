@@ -147,6 +147,10 @@ img {
   background-color: var(--pink);
 }
 
+.search .search-here:focus {
+  outline: 0;
+}
+
 .search .search-item {
   padding: 0.35rem 0.65rem;
   background-color: var(--footer-red);
